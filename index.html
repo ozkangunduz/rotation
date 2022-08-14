@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotation Oyunu</title>
+    <style>
+        *{
+            text-align: center;
+            font-family: 'Calibri';
+            font-weight: bold;
+            font-size: medium;
+        }
+        div{
+            font-size:larger;
+        }
+
+    </style>
+</head>
+<body>
+    <div>ROTATION GAME (Nokia 3210)</div>
+    <input id="number" type="number" value =3 style="width: 30px;">&nbsp;<button id="newgame" onclick="init()">New Game</button> (Arrow Keys & A:Rotate Left, S:Rotate Right, Space:Restart) <p>
+    <canvas id="canvas" style="border:1px solid black"></canvas>
+    <div id="time"></div>
+    <script src="index.js"></script>
+
+    
+</body>
+</html>
